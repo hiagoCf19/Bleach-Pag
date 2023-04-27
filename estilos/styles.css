@@ -2,7 +2,7 @@
 :root {
     --cor-branco: #FFFFFF;
     --cinza-secundario: #9BA4B5;
-    --azul-botao: #EC2F46;;
+    --azul-botao:  #f00c27;
     --cor-fundo:#000000;
 }
 * {
@@ -57,6 +57,11 @@ font-size: 20px;
 font-family: 'Inter', sans-serif;;
 text-decoration: none;
 }
+.botao:hover {
+   background-color:  #990113;
+   color: black;
+   
+}
 .botao2 {
 background-color: transparent;
 padding: 16px;
@@ -68,6 +73,11 @@ margin: 10px;
 font-size: 20px;
 font-family:'Inter', sans-serif; ;
 text-decoration: none;
+}
+.botao2:hover {
+    background-color: #202020;
+    color: var(--cor-branco);
+
 }
 .aviso {
     color: var(--cinza-secundario);
@@ -114,6 +124,10 @@ text-decoration: none;
     text-align: center;
     width: 200px;
     justify-content: space-between;
+}
+.botao3:hover {
+    background-color:  #990113;
+    color: black;
 }
 
 .ultimo__titulo {
@@ -171,5 +185,5 @@ margin-top: auto;
 }
 
 .lista__rodape a:hover{
-    color: #EC2F46;
+    color: #990113;
 }
